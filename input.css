@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+/* .reveal .slides {
+  font-family: "BIZ UDPゴシック";
+  font-weight: 200;
+  font-size: calc(22px + 0.25vw);
+  text-align: left;
+} */
+
+.line_through{
+  text-decoration: line-through;
+}
+
+.underline{
+  text-decoration: underline;
+}

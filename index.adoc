@@ -1,0 +1,86 @@
+// http://localhost:3000
+:date: 2022-05-06
+:icons: font
+:revealjs_history: true
+:revealjs_fragmentInURL: true
+:revealjs_viewDistance: 5
+:revealjs_width: 1920
+:revealjs_height: 1080
+// コントローラの表示
+:revealjs_controls: true
+:revealjs_controlsLayout: edges
+:revealjs_controlsTutorial: true
+:revealjs_autoPlayMedia: true
+:revealjs_transition: none
+:imagesdir: images
+
+// :revealjs_theme: black
+:revealjs_customtheme: white.css
+:revealjs_display: grid
+:revealjs_showSlideNumer: all
+:revealjs_slideNumber: c/t
+:customcss: output.css
+
+= テスト実験です(This is a test experiment1234)
+test Test Desu フォントの実験です1234
+
+
+// [background-image="kika635.png"]
+== Slide One
+[.bg-red]
+--
+* Foo
+* [.line_through]#Bar#
+* World
+* Universe
+* Hello
+* Bye
+--
+
+[%auto-animate.paper]
+== !
+Auto-Animate
+
+[%auto-animate]
+== !
+[.text-blue-600, .text-9xl]
+Auto-Animate
+
+[.columns.paper]
+== 2 columns
+
+[.column]
+--
+[%interactive]
+- [*] **Edgar Allen Poe**
+- [x] Sheri S. Tepper
+- [ ] Bill Bryson
+--
+
+[.column]
+--
+WARNING: Edgar Allan Poe (/poʊ/; born Edgar Poe; January 19, 1809 – October 7, 1849) +
+*was* an Ame**r**ican *_writer_*, [.line_through]#editor#, and [.underline]#literary# [.big]#critic#.
+*was* an American writer, editor, and literary critic.
+--
+
+[.columns]
+== Columns with size
+
+[.column.is-one-third]
+--
+. **Kotlin**
+. Java
+. Scala
+--
+
+[.column]
+--
+Programming:: language for Android, mobile cross-platform
+
+.**yabai**
+****
+and web development, server-side, native,
+and data science. Open source forever Github.
+****
+--
