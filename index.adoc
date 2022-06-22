@@ -11,19 +11,20 @@
 :revealjs_controlsLayout: edges
 :revealjs_controlsTutorial: true
 :revealjs_autoPlayMedia: true
-:revealjs_transition: none
+// :revealjs_transition: none
+:revealjs_transition: slide
 :imagesdir: images
 
 // :revealjs_theme: black
 :revealjs_customtheme: white.css
 :revealjs_display: grid
+:revealjs_margin: 0.05
 :revealjs_showSlideNumer: all
 :revealjs_slideNumber: c/t
 :customcss: output.css
 
 = テスト実験です(This is a test experiment1234)
 test Test Desu フォントの実験です1234
-
 
 // [background-image="kika635.png"]
 == Slide One
@@ -38,13 +39,19 @@ test Test Desu フォントの実験です1234
 --
 
 [%auto-animate.paper]
-== !
-Auto-Animate
+== アニメーション
+Auto-Animate::
+. **Kotlin**
+. Java
+. Scala
 
 [%auto-animate]
-== !
-[.text-blue-600, .text-9xl]
-Auto-Animate
+== アニメーション拡大
+[.text-blue-600.text-9xl]
+#Auto-Animate#::
+. **Kotlin**
+. Java
+. Scala
 
 [.columns.paper]
 == 2 columns
@@ -67,7 +74,7 @@ WARNING: Edgar Allan Poe (/poʊ/; born Edgar Poe; January 19, 1809 – October 7
 [.columns]
 == Columns with size
 
-[.column.is-one-third]
+[.column.is-one-quarter]
 --
 . **Kotlin**
 . Java
@@ -80,7 +87,45 @@ Programming:: language for Android, mobile cross-platform
 
 .**yabai**
 ****
-and web development, server-side, native,
+and web [.text-red]#development#, server-side, native,
 and data science. Open source forever Github.
 ****
 --
+
+== 目標
+[.underline]#前回の反省点#::
+* 他の人に影響する作業は優先してやる
+* 作業分担するために、実装する前に使用を考える
+
+[.underline]#個人目標#::
+* 各々が挑戦できるように作業を分担する
+* 使用を決めるなど優先順位を意識して、チーム開発を円滑に進める
+
+[.columns]
+== 目標
+[.column.text-4xl]
+--
+[.underline]#前回の反省点#::
+* 他の人に影響する作業は優先してやる
+* 作業分担するために、実装する前に使用を考える
+
+[.underline]#個人目標#::
+* 各々が挑戦できるように作業を分担する
+* 使用を決めるなど優先順位を意識して、チーム開発を円滑に進める
+--
+
+[.column.text-4xl]
+--
+[.underline]#前回の反省点#::
+* 他の人に影響する作業は優先してやる
+* 作業分担するために、実装する前に使用を考える
+
+[.underline]#個人目標#::
+* 各々が挑戦できるように作業を分担する
+* 使用を決めるなど優先順位を意識して、チーム開発を円滑に進める
+--
+
+== Chat
+++++
+<iframe src="http://localhost:3000" width=1920 height=800></iframe>
+++++
