@@ -15,20 +15,21 @@
 :revealjs_transition: slide
 :imagesdir: images
 
-// :revealjs_theme: black
-:revealjs_customtheme: white.css
+// :revealjs_theme: white
 :revealjs_display: grid
+:revealjs_customtheme: white.css
 :revealjs_margin: 0.05
 :revealjs_showSlideNumer: all
 :revealjs_slideNumber: c/t
 :customcss: output.css
 
+[.text-5xl]
 = テスト実験です(This is a test experiment1234)
 test Test Desu フォントの実験です1234
 
 // [background-image="kika635.png"]
 == Slide One
-[.bg-red]
+[.rounded.border-solid.ring.border-4.border-red]
 --
 * Foo
 * [.line_through]#Bar#
@@ -38,7 +39,7 @@ test Test Desu フォントの実験です1234
 * Bye
 --
 
-[%auto-animate.paper]
+[%auto-animate]
 == アニメーション
 Auto-Animate::
 . **Kotlin**
@@ -47,7 +48,7 @@ Auto-Animate::
 
 [%auto-animate]
 == アニメーション拡大
-[.text-blue-600.text-9xl]
+[.text-7xl]
 #Auto-Animate#::
 . **Kotlin**
 . Java
@@ -126,6 +127,8 @@ and data science. Open source forever Github.
 --
 
 == Chat
+--
 ++++
 <iframe src="http://localhost:3000" width=1920 height=800></iframe>
 ++++
+--

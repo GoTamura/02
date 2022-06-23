@@ -112,6 +112,20 @@ body {
   /* border:solid; */
 }
 
+.reveal .slides .title {
+  gap: 0rem;
+  grid-template-rows: auto auto;
+}
+
+.reveal .slides .title h1 {
+  display: grid;
+  place-items: center;
+}
+
+.reveal .slides .title .byline {
+  font-size: 3rem;
+}
+
 .column {
   /* border: solid; */
 }
